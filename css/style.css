@@ -1,0 +1,80 @@
+
+
+body{ 
+font-family: 'Xanh Mono', sans-serif;
+ margin:0;
+ padding:0
+}
+
+.banner-wrap {
+background-image: url('https://images.unsplash.com/photo-1579894963889-617563c18544?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+background-size: cover;
+padding: 100px;
+text-align: center;
+}
+
+h1 {
+	color:white;
+	font-size: 90px;
+	font-weight: bold;
+	text-shadow: 5px 4px 5px black;
+
+}
+
+h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 5px 4px 5px black;
+
+}
+
+h3 {
+	color:black;
+	font-weight: bold;
+	font-family: 'Epilogue', sans-serif;
+	font-size: 25px;
+}
+
+ p {
+	color: black;
+	font-size:30px;
+	font-family: 'Balsamiq Sans', sans-serif;
+	padding: 20px;
+	margin: 0px 10px;
+	text-align: justify;
+}
+
+h4 { 
+	color: black;
+	text-align: left;
+	font-size:25px;
+	font-family: 'Balsamiq Sans', sans-serif;
+}
+
+
+.cards-container {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+	padding: 50px;
+}
+.card {
+	background-image: url(https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); ;
+	box-shadow: 0 0 16px rgba(0,0,0,0.2);
+	border-radius:6px;
+	padding: 30px;
+	margin: 40px;
+}
+.card img {
+	width: 450px;
+	height:350px;
+}
+
+footer {
+	color:black;
+	font-weight: bold;
+	font-family: 'Epilogue', sans-serif;
+	font-size: 25px
+}
